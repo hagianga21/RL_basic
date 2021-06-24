@@ -11,5 +11,6 @@ config_dqn = {
     'batch_size': 32,
     'target_update': 15000,
     'learning_rate': 0.00025,
-    'device': "cpu",
+    #'device': "cpu",
+    'device': "cuda:1",
 }

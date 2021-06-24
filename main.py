@@ -23,4 +23,4 @@ env = ResizeObservation(env, shape=84)
 env = FrameStack(env, num_stack=4)
 
 mario = Mario(env, config_dqn)
-mario.train(episodes = 300)
+mario.train(episodes = 60000)
