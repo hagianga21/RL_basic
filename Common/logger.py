@@ -8,5 +8,3 @@ class TensorBoard_Record():
         
     def add_scalar(self, name_tag, y_value, x_value):
         self.writer.add_scalar(name_tag, y_value, x_value)
-
-#tensorboard --logdir tensorboard --bind_all
